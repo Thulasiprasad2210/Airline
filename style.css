@@ -1,20 +1,19 @@
+
 body {
   font-family: Arial, sans-serif;
-  padding: 0px;
-  margin: 0px;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
 }
-
-/* .continer {
-  width: 100%;
-} */
 
 .head {
   text-align: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 5px; 
 }
-
 .icon img {
   width: 70px;
   height: 50px;
@@ -25,12 +24,14 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 30px;
+  gap: 15px;
+  flex-wrap: wrap; 
+  justify-content: center;
 }
-
 .menu a {
   color: skyblue;
   text-decoration: none;
+  font-size: 14px;
 }
 
 .menu a:hover {
@@ -125,6 +126,7 @@ img {
   border-radius: 10px;
   margin-bottom: 20px;
 }
+
 #offers {
   background-color: #f7f7f7;
   padding: 50px;
@@ -136,21 +138,27 @@ img {
   border-radius: 50%;
 }
 .fly{
-  text-align: center;
   height: 450px;
-  width: 500px;
   padding: 10px;
-  margin-left: 30%;
-  border: 1px solid skyblue;
-  border-radius: 15px;
-  background-color: #cee4ef;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
 }
-
+.fly ,h3{
+  text-align: center;
+}
+.form{
+  border: 1px solid rgb(186, 221, 237);
+  background-color: #c1e3f2;
+  border-radius: 15px;
+  width: 350px;
+  padding: 20px;
+}
 input,select {
   height: 40px;
   width: 300px;
-  justify-content: center;
   margin: 15px;
+  border: #c1e3f2;
 }
 
 .fly button{
@@ -166,7 +174,7 @@ input,select {
 
 #help {
   background-color: #f7f7f7;
-  padding: 20px;
+  padding: 40px;
   text-align: center;
 }
 

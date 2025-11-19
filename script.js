@@ -84,12 +84,13 @@ d.innerHTML = `
 air.append(d)
 
 let fly=document.createElement("div")
-fly.id="let's"
+let name = document.createElement("h3")
 fly.className="fly"
+fly.id="let's"
+name.innerHTML=`<h3>Let's Fly</h3>`
 fly.innerHTML=`
-<h3>Let's Fly</h3>
 <div class="fly1">
-<form action="">
+<form action="" class="form">
 <label for=""> To </label> <br>
 <input type="text" placeholder="Your Destination place"><br>
 <label for=""> Date </label> <br>
@@ -101,11 +102,13 @@ fly.innerHTML=`
     <option>Business</option>
     <option>First</option>
 </select><br>
-<button>Fly Now</button>
-</form>
-</div>
-`
+    <button>Fly Now</button>
+    </form>
+    </div>
+    `
+air.append(name)
 air.append(fly)
+
 
 let contact = document.createElement("div")
 contact.id = "help"
