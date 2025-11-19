@@ -1,0 +1,182 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+.continer {
+  width: 100%;
+}
+
+.head {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon img {
+  width: 70px;
+  height: 50px;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu a {
+  color: skyblue;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #ccc;
+}
+
+#home {
+  text-align: center;
+}
+
+#home h2 {
+  text-align: center;
+  text-decoration: underline skyblue;
+}
+
+marquee {
+  margin: 0px;
+  padding: 0px;
+  border: #555 1px solid;
+  height: 30px;
+  font-size: 20px;
+  background-color: #555;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.card {
+  background-image: url(https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRxV4maCtLDod2GWp2-PyqqzgoFh_GYKP8kVq-1N6wOQ2RpkN10Ikk04Mqa-0ZQamCT7USJFooD1jXay0Ko1DX0BXCHnFlsScKenH8by15MtLIopNQ);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  border-radius: 10px;
+}
+
+#p {
+  color: white;
+}
+
+#p1 {
+  color: #ffffff;
+}
+
+#b {
+  background-color: rgb(121, 200, 232);
+  color: whitesmoke;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+button a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#b:hover {
+  background-color: #555;
+}
+
+#SERVICES {
+  background-color: #f7f7f7;
+  padding: 50px;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 150px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.blogs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.blog,
+.blog1,
+.blog2 {
+  width: 300px;
+  padding: 15px;
+  text-align: center;
+  border: #cee4ef 1px solid;
+  height: 350px;
+  background-color: #cee4ef;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+#offers {
+  background-color: #f7f7f7;
+  padding: 50px;
+  text-align: center;
+  gap: 50px;
+}
+
+#offers img{
+  border-radius: 50%;
+}
+.fly{
+  text-align: center;
+  height: 450px;
+  width: 500px;
+  padding: 10px;
+  margin-left: 30%;
+  border: 1px solid skyblue;
+  border-radius: 15px;
+  background-color: #cee4ef;
+}
+
+input,select {
+  height: 40px;
+  width: 300px;
+  justify-content: center;
+  margin: 15px;
+}
+
+.fly button{
+  background-color: rgb(121, 200, 232);
+  color: whitesmoke;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 15px;
+  width: 90px;
+}
+
+#help {
+  background-color: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #89cff0;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
